@@ -16,15 +16,15 @@ int main()
     printf("\nEnter number of nodes:\n");
     scanf("%d",&n);
     printf("\nRead adjacency matrix:\n");
-    for(i=0;i<=n;i++)
+    for(i=1;i<=n;i++)
     {
-        for(j=0;j<=n;j++)
+        for(j=1;j<=n;j++)
             scanf("%d",&a[i][j]);
     }
-    for(i=0;i<=n;i++){
+    for(i=1;i<=n;i++){
         visited[i]=0;
     }
-    for(i=0;i<=n;i++)
+    for(i=1;i<=n;i++)
     {
         if(visited[i]==0)
         {
